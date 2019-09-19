@@ -11,7 +11,7 @@ const Comments = ({ url, title }) => {
     <S.CommentsWrapper>
       <S.CommentsTitle>Comentários</S.CommentsTitle>
       <ReactDisqusComments
-        shortname="thiagowilliam_dev"
+        shortname="Thiago William"
         identifier={completeURL}
         title={title}
         url={completeURL}
