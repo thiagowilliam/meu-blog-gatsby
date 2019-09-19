@@ -8,7 +8,7 @@ module.exports = {
     position: `Frontend Developer`,
     description: `A blog about frontend development and other coll stuff.`,
     author: `@thiago.will`,
-    siteUrl: `https://thiagowilliam.netlify.com`,
+    siteUrl: `https://thiagowilliam.com.br`,
   },
   plugins: [
     `gatsby-plugin-transition-link`,
@@ -91,5 +91,6 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
   ],
 }
